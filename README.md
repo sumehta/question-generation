@@ -1,4 +1,4 @@
-**Question Generation from Declarative Sentences**
+# Question Generation from Declarative Sentences #
 
 
 Given a statement of text such as,
