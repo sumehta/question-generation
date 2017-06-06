@@ -43,6 +43,10 @@ class QuestionGenerator(object):
 		Arguments:
 			input_sentence: The declarative statement to be converted to a question. Should be in bytes.
 
+		Returns:
+			The relatively free-form output consisting of question followed by its answer followed by the
+			score for that question.
+
 		"""
 		# This commands requires the question_generation package.
 		# command = "java -Xmx1200m -cp question-generation.jar \ edu/cmu/ark/QuestionAsker --verbose --model models/linear-regression-ranker-reg500.ser.gz --prefer-wh --max-length 30 --downweight-pro"
