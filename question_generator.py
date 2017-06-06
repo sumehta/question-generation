@@ -67,8 +67,8 @@ class QuestionGenerator(object):
 
 		results = []
 
-		for type in question_types:
-			p = "({}[^.?!]*)\\?".format(type)
+		for ty in question_types:
+			p = "({}[^.?!]*)\\?".format(ty)
 			pattern = re.compile(p)
 			results.append(pattern.findall(output))
 
