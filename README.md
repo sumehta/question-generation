@@ -1,4 +1,4 @@
-#Question Generation from Declarative Sentences
+**Question Generation from Declarative Sentences**
 
 
 Given a statement of text such as,
@@ -17,7 +17,9 @@ The hardest part of the whole project is setup. Yes you heard it right.
 To run this code you need to have a Java Runtime Environment installed. Java downloads can be found on the Oracle website [here](https://www.java.com/en/download/manual.jsp). Version 1.6.0_07 of Java was used in developing the original system. The code is packaged up for use on UNIX systems, or for use in the Eclipse IDE.
 
 *Dependencies*
+
 The following are the dependencies of the original code.
+
 -Apache Commons Lang (http://commons.apache.org/lang/)
 -Apahce Commons Logging (http://commons.apache.org/logging/)
 -JUnit (http://www.junit.org/)
@@ -32,14 +34,19 @@ The following are the dependencies of the original code.
 The good news is that you don't need to download each one of those individually because everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
 
 First, clone this repository,
+
 `git clone https://github.com/sumehta/question-generation.git`
 
 Unzip the **QuestionGeneration.zip** file
+
 `unzip QuestionGeneration.zip`
+
 `cd QuestionGeneration`
 
 Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
+
 `bash runStanfordParserServer.sh`
+
 `bash runSSTServer.sh`
 
 Finally, to get a list of questions for a statement, execute this command
@@ -47,6 +54,7 @@ Finally, to get a list of questions for a statement, execute this command
 `python question.py -s 'Handheld devices find ways to bolster U.S. homeland defense and response'`
 
 For other options exposed by the script type,
+
 `python question.py -help`
 
 For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
