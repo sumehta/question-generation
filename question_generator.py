@@ -34,9 +34,6 @@ class QuestionGenerator(object):
 			self.mongod_collection=mongod_collection
 			print("Reading from mongodb")
 
-		# Change dir to the path containing QuestionGeneration
-		os.chdir("/Users/sneha/Documents/dev/SmithHeilmann_fork/QuestionGeneration/")
-
 	def _get_raw_output(self, input_sentence):
 		"""
 		Invokes the QuestionGenerator Java class to generate questions given a declarative statement.
