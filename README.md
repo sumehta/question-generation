@@ -21,13 +21,21 @@ To run this code you need to have a Java Runtime Environment installed. Java dow
 The following are the dependencies of the original code.
 
 -Apache Commons Lang (http://commons.apache.org/lang/)
+
 -Apahce Commons Logging (http://commons.apache.org/logging/)
+
 -JUnit (http://www.junit.org/)
+
 -JWNL (http://sourceforge.net/projects/jwordnet/)
+
 -Stanford NLP tools (http://www-nlp.stanford.edu/software/)
+
 -WordNet (http://wordnet.princeton.edu/)
+
 -The sst-light-0.4 release of the SuperSenseTagger, from which we used the SemCor data for training the supersense tagger (http://sourceforge.net/projects/supersensetag/)
+
 -The Semcor corpus, used for training the supersense tagger (http://www.cse.unt.edu/~rada/downloads.html#semcor)
+
 -The WEKA toolkit, version 3.6.0 (http://www.cs.waikato.ac.nz/ml/weka/)
 
 
