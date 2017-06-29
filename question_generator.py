@@ -51,6 +51,7 @@ class QuestionGenerator(object):
 		# This commands requires the question_generation package.
 		# command = "java -Xmx1200m -cp question-generation.jar \ edu/cmu/ark/QuestionAsker --verbose --model models/linear-regression-ranker-reg500.ser.gz --prefer-wh --max-length 30 --downweight-pro"
 
+		os.chdir("/Users/sneha/Documents/dev/SmithHeilmann_fork/QuestionGeneration/")
 		p = subprocess.Popen(['bash', 'run.sh'], stdout=subprocess.PIPE, stdin=subprocess.PIPE, stderr=subprocess.STDOUT)
 		output = p.communicate(input=input_sentence)[0]
 		return output.decode()
@@ -68,7 +69,7 @@ class QuestionGenerator(object):
 			Each list contains questions of the corresponding type.
 		"""
 		output = self._get_raw_output(bytearray(sentence, 'utf-8'))
-
+		import pdb;pdb.set_trace();
 		results = []
 
 		for ty in question_types:
