@@ -27,7 +27,7 @@ class QuestionGenerator(object):
 			 collection object from which to retrieve the statements from.
 		"""
 		if input_file:
-			input_file=input_file
+			self.input_file=input_file
 			print("Reading from file")
 
 		if mongod_collection:
