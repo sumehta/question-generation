@@ -5,10 +5,10 @@ Created on Mon Jun  5 14:04:55 2017
 
 @author: sneha
 """
-
-import subprocess
 import os
 import re
+import subprocess
+from os.path import dirname
 
 
 class QuestionGenerator(object):
@@ -34,6 +34,8 @@ class QuestionGenerator(object):
 			self.mongod_collection=mongod_collection
 			print("Reading from mongodb")
 
+		os.chdir(os.path.join(os.path.dirname(__file__), 'QuestionGeneration'))
+
 	def _get_raw_output(self, input_sentence):
 		"""
 		Invokes the QuestionGenerator Java class to generate questions given a declarative statement.
@@ -55,7 +57,7 @@ class QuestionGenerator(object):
 		output = p.communicate(input=input_sentence)[0]
 		return output.decode()
 
-	def generate_question(self, sentence, question_types=['Wh']):
+	def generate_question(self, sentence, question_types=['Wh', 'Are', 'How', 'Do']):
 		"""
 		An utility method that generates a question for a single sentence
 		Arguments:
@@ -71,11 +73,15 @@ class QuestionGenerator(object):
 
 		results = []
 
-		for ty in question_types:
-			p = "({}[^.?!]*)\\?".format(ty)
-			pattern = re.compile(p)
-			results.append(pattern.findall(output))
+		try:
+			q_a_pairs = output.split('\n')[3:]
+		except:
+			exit('No viable questions generated! Please try a different sentence.')
 
+		for ty in question_types:
+			for q_a in q_a_pairs:
+				if re.match(r"{}\w+|\W\?".format(ty), q_a):
+					results.append({'Q': q_a.split('\t')[0], 'A': q_a.split('\t')[1]})
 		return results
 
 
