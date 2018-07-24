@@ -44,23 +44,24 @@ The good news is that you don't need to download each one of those individually 
 
 1. First, clone this repository,
 
-`git clone https://github.com/sumehta/question-generation.git`
+	`git clone https://github.com/sumehta/question-generation.git`
 
-Unzip the **QuestionGeneration.zip** file
+2. Unzip the **QuestionGeneration.zip** file
 
-`unzip QuestionGeneration.zip`
+	`unzip QuestionGeneration.zip`
 
-`cd QuestionGeneration`
+	`cd QuestionGeneration`
 
-2. [Optinal] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
+3. [Optinal] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
 
-`bash runStanfordParserServer.sh`
+	`bash runStanfordParserServer.sh`
 
-`bash runSSTServer.sh`
+	`bash runSSTServer.sh`
 
-3. Finally, to get a list of questions for a statement, execute this command
+4. Finally, to get a list of questions for a statement, execute this command
 
-`python question.py -s 'Handheld devices find ways to bolster U.S. homeland defense and response'`
+	`python question.py -s 'Handheld devices find ways to bolster U.S. homeland defense and response'`
+
 
 For other options exposed by the script type,
 
