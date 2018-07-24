@@ -42,7 +42,7 @@ The following are the dependencies of the original code.
 
 The good news is that you don't need to download each one of those individually because everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
 
-First, clone this repository,
+1. First, clone this repository,
 
 `git clone https://github.com/sumehta/question-generation.git`
 
@@ -52,13 +52,13 @@ Unzip the **QuestionGeneration.zip** file
 
 `cd QuestionGeneration`
 
-Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
+2. [Optinal] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
 
 `bash runStanfordParserServer.sh`
 
 `bash runSSTServer.sh`
 
-Finally, to get a list of questions for a statement, execute this command
+3. Finally, to get a list of questions for a statement, execute this command
 
 `python question.py -s 'Handheld devices find ways to bolster U.S. homeland defense and response'`
 
