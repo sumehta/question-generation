@@ -1,5 +1,6 @@
 # Question Generation from Declarative Sentences #
 
+*Update: If you have a feature request please open an issue and I might implement it, or feel free to submit a pull request.*
 
 Given a statement of text such as,
 >Handheld devices find ways to bolster U.S. homeland defense and response.
