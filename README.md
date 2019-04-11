@@ -1,6 +1,6 @@
 # Question Generation from Declarative Sentences #
 
-*Update: If you have a feature request please open an issue and I might implement it, or feel free to submit a pull request.*
+*Update: If you have a feature request please open an issue or feel free to submit a pull request.*
 
 Given a statement of text such as,
 >Handheld devices find ways to bolster U.S. homeland defense and response.
@@ -8,7 +8,7 @@ Given a statement of text such as,
 The questions generated will be:
 >What do handheld devices find?
 
-The original code is a product of the PhD thesis of Michael Heilman. The original code is written in Java and other resources can be found [here](http://www.cs.cmu.edu/~ark/mheilman/questions/).
+The original code is a product of the PhD thesis of Michael Heilman. The original Java code and other resources can be found [here](http://www.cs.cmu.edu/~ark/mheilman/questions/).
 
 For all Pythonistas out there this repository provides a Python wrapper to simplify the execution of the code above.
 The hardest part of the whole project is setup. Yes you heard it right.
@@ -52,7 +52,7 @@ The good news is that you don't need to download each one of those individually 
 
 	`cd QuestionGeneration`
 
-3. [Optinal] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
+3. [Optional] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
 
 	`bash runStanfordParserServer.sh`
 
@@ -68,5 +68,3 @@ For other options exposed by the script type,
 `python question.py -help`
 
 For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
-
-*Note: This repository is still in dev and I'll be exposing more options exposed by the original system.*
