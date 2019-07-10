@@ -8,14 +8,14 @@ Given a statement of text such as,
 The questions generated will be:
 >What do handheld devices find?
 
-The original code is a product of the PhD thesis of Michael Heilman. The original Java code and other resources can be found [here](http://www.cs.cmu.edu/~ark/mheilman/questions/).
+The original software is a product of PhD thesis of Michael Heilman. The original JAVA code and other instuctions/resources/dependencies can be found [here](http://www.cs.cmu.edu/~ark/mheilman/questions/).
 
 For all Pythonistas out there this repository provides a Python wrapper to simplify the execution of the code above.
 The hardest part of the whole project is setup. Yes you heard it right.
 
 **Setup**
 
-To run this code you need to have a Java Runtime Environment installed. Java downloads can be found on the Oracle website [here](https://www.java.com/en/download/manual.jsp). Version 1.6.0_07 of Java was used in developing the original system. The code is packaged up for use on UNIX systems, or for use in the Eclipse IDE.
+To run the original code you need to have a JAVA Runtime Environment installed. JAVA downloads can be found on the Oracle website [here](https://www.java.com/en/download/manual.jsp). Version 1.6.0_07 of JAVA was used in developing the original system. The code is packaged for use on UNIX systems or for use in the Eclipse IDE.
 
 *Dependencies*
 
@@ -40,9 +40,11 @@ The following are the dependencies of the original code.
 -The WEKA toolkit, version 3.6.0 (http://www.cs.waikato.ac.nz/ml/weka/)
 
 
-The good news is that you don't need to download each one of those individually because everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
+**The good news is that you don't need to download each one of those individually***.
+Everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
 
-1. First, clone this repository,
+**Steps**:
+1. Clone this repository,
 
 	`git clone https://github.com/sumehta/question-generation.git`
 
@@ -67,4 +69,4 @@ For other options exposed by the script type,
 
 `python question.py -help`
 
-For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
+Note: For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
