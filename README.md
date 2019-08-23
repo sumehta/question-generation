@@ -8,10 +8,10 @@ Given a statement of text such as,
 The questions generated will be:
 >What do handheld devices find?
 
-The original software is a product of PhD thesis of Michael Heilman. The original JAVA code and other instuctions/resources/dependencies can be found [here](http://www.cs.cmu.edu/~ark/mheilman/questions/).
+The original software is a product of PhD thesis of Michael Heilman. The original JAVA code and other instructions/resources/dependencies can be found [here](http://www.cs.cmu.edu/~ark/mheilman/questions/).
 
 For all Pythonistas out there this repository provides a Python wrapper to simplify the execution of the code above.
-The hardest part of the whole project is setup. Yes you heard it right.
+The hardest part of the whole project is setup. Yes you heard it right!
 
 **Setup**
 
