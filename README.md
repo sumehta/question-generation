@@ -40,7 +40,7 @@ The following are the dependencies of the original code.
 -The WEKA toolkit, version 3.6.0 (http://www.cs.waikato.ac.nz/ml/weka/)
 
 
-**The good news is that you don't need to download each one of those individually***.
+**The good news is that you don't need to download each one of those individually**.
 Everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
 
 **Steps**:
@@ -60,7 +60,7 @@ Everything is neatly packed in the **QuestionGeneration.zip** bundled with the c
 
 	`bash runSSTServer.sh`
 
-4. Finally, to get a list of questions for a statement, execute this command
+4. Finally, to get a list of questions for a statement, from the parent directory execute this command
 
 	`python question.py -s 'Handheld devices find ways to bolster U.S. homeland defense and response'`
 
