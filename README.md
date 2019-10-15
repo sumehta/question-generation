@@ -72,4 +72,4 @@ For other options exposed by the script type,
 Note: For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
 
 
-CITATIONS: As such there is no citation needed if you want to use the code in this repository (although please cite Michael Heilman's paper from his website on which this repository is based). Please feel free to courtesy star the repository if you happen to find it useful. It'll motivate us to add additional features :)
+CITATIONS: As such there is no citation needed if you want to use the code in this repository, although please cite Michael Heilman's paper from his website on which this repository is based.
