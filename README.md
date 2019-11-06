@@ -43,7 +43,7 @@ The following are the dependencies of the original code.
 **The good news is that you don't need to download each one of those individually**.
 Everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
 
-**Steps**:
+## Steps:
 1. Clone this repository,
 
 	`git clone https://github.com/sumehta/question-generation.git`
