@@ -2,6 +2,7 @@
 
 *Update: If you have a feature request please open an issue or feel free to submit a pull request.*
 
+## Introduction 
 Given a statement of text such as,
 >Handheld devices find ways to bolster U.S. homeland defense and response.
 
@@ -13,7 +14,7 @@ The original software is a product of PhD thesis of Michael Heilman. The origina
 For all Pythonistas out there this repository provides a Python wrapper to simplify the execution of the code above.
 The hardest part of the whole project is setup. Yes you heard it right!
 
-**Setup**
+## Setup
 
 To run the original code you need to have a JAVA Runtime Environment installed. JAVA downloads can be found on the Oracle website [here](https://www.java.com/en/download/manual.jsp). Version 1.6.0_07 of JAVA was used in developing the original system. The code is packaged for use on UNIX systems or for use in the Eclipse IDE.
 
