@@ -44,7 +44,7 @@ The following are the dependencies of the original code.
 **The good news is that you don't need to download each one of those individually**.
 Everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
 
-## Steps:
+## Steps
 1. Clone this repository,
 
 	`git clone https://github.com/sumehta/question-generation.git`
@@ -73,7 +73,7 @@ For other options exposed by the script type,
 Note: For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
 
 
-## Cite This Repository:
+## Cite This Repository
 `@misc{QG_Python,
   author = {Sneha Mehta},
   title = {Question Generation - Python Wrapper},
