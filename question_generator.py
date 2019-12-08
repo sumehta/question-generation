@@ -13,7 +13,7 @@ from os.path import dirname
 
 class QuestionGenerator(object):
 	"""
-	Define a class that generates questions given an input text file
+	Generate questions given an input text file
 	or a db connection. Currently supported db connection is mongodb.
 	"""
 	def __init__(self, input_file=None, mongod_collection=None):
@@ -59,7 +59,7 @@ class QuestionGenerator(object):
 
 	def generate_question(self, sentence, question_types=['Wh', 'Are', 'How', 'Do']):
 		"""
-		An utility method that generates a question for a single sentence
+		Utility method that generates a question for a single sentence
 		Arguments:
 			sentence: The sentence for which to generate question
 			question_types: The types of questions to be generated. Options include,
