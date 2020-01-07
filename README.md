@@ -73,7 +73,7 @@ For other options exposed by the script type,
 Note: For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
 
 
-## Cite This Repository
+## Cite this repository
 `@misc{QG_Python,
   author = {Sneha Mehta},
   title = {Question Generation - Python Wrapper},
