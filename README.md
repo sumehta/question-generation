@@ -84,4 +84,4 @@ If you use this repository in a technical report or a research paper, please cit
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/sumehta/question-generation}},
   commit = {master}
-}```
+}
