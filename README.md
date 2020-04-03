@@ -74,7 +74,9 @@ Note: For developers, I have also included a QuestionGenerator class, that expos
 
 
 ## Cite this repository
-`@misc{QG_Python,
+If you use this repository in a technical report or a research paper, please cite this repository.
+
+@misc{QG_Python,
   author = {Sneha Mehta},
   title = {Question Generation - Python Wrapper},
   year = {2017},
@@ -82,4 +84,4 @@ Note: For developers, I have also included a QuestionGenerator class, that expos
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/sumehta/question-generation}},
   commit = {master}
-}`
+}
