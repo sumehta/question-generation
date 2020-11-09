@@ -53,9 +53,9 @@ Everything is neatly packed in the **QuestionGeneration.zip** bundled with the c
 
 	`unzip QuestionGeneration.zip`
 
-	`cd QuestionGeneration`
-
 3. [Optional] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
+
+	`cd QuestionGeneration`
 
 	`bash runStanfordParserServer.sh`
 
