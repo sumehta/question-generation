@@ -11,7 +11,7 @@ The questions generated will be:
 
 The original software is a product of PhD thesis of Michael Heilman. The original JAVA code and other instructions/resources/dependencies can be found [here](http://www.cs.cmu.edu/~ark/mheilman/questions/).
 
-For all Pythonistas out there this repository provides a Python wrapper to simplify the execution of the code above.
+For all Pythonistas :sunglasses: out there this repository provides a Python wrapper to simplify the execution of the code above.
 The hardest part of the whole project is setup. Yes you heard it right!
 
 ## Setup
@@ -41,7 +41,7 @@ The following are the dependencies of the original code.
 -The WEKA toolkit, version 3.6.0 (http://www.cs.waikato.ac.nz/ml/weka/)
 
 
-**The good news is that you don't need to download each one of those individually**.
+**The good news is that you don't need to download each one of those individually** :grinning:.
 Everything is neatly packed in the **QuestionGeneration.zip** bundled with the code.
 
 ## Steps
