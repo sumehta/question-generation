@@ -68,7 +68,7 @@ Everything is neatly packed in the **QuestionGeneration.zip** bundled with the c
 
 For other options exposed by the script type,
 
-`python question.py -help`
+`python question.py --help`
 
 Note: For developers, I have also included a QuestionGenerator class, that exposes other methods for processing large collections.
 
