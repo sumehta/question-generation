@@ -74,7 +74,7 @@ Note: For developers, I have also included a QuestionGenerator class, that expos
 
 
 ## Cite this repository
-If you use this repository in a technical report or a research paper, please cite this repository.
+If you find this repository helpful and use it in a technical report or a research paper, please cite this repository.
 
 ```@misc{QG_Python,
   author = {Sneha Mehta},
