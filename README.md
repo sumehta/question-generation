@@ -48,12 +48,14 @@ Everything is neatly packed in the **QuestionGeneration.zip** bundled with the c
 1. Clone this repository,
 
 	`git clone https://github.com/sumehta/question-generation.git`
+	
+2. `cd question-generation`
 
-2. Unzip the **QuestionGeneration.zip** file
+3. Unzip the **QuestionGeneration.zip** file
 
 	`unzip QuestionGeneration.zip`
 
-3. [Optional] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
+4. [Optional] Start two servers to speed up the script, Stanford Parser server and the SST servers in two separate terminals.
 
 	`cd QuestionGeneration`
 
@@ -61,7 +63,7 @@ Everything is neatly packed in the **QuestionGeneration.zip** bundled with the c
 
 	`bash runSSTServer.sh`
 
-4. Finally, to get a list of questions for a statement, from the parent directory execute this command
+5. Finally, to get a list of questions for a statement, from the parent directory execute this command
 
 	`python question.py -s 'Handheld devices find ways to bolster U.S. homeland defense and response'`
 
